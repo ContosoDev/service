@@ -5,7 +5,7 @@ const EntityCoordinates = require('../../lib/entityCoordinates')
 const { expect } = require('chai')
 
 describe('licenseMatcher.js', () => {
-  describe('LicenseMatcher', () => {
+  describe('LicenseMatcher process()', () => {
     const matcher = new LicenseMatcher([
       {
         isMatching: () => ({ isMatching: false, policy: '1' }),
