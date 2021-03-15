@@ -357,6 +357,7 @@ class GitHubCurationService {
           this.logger.info('GitHubCurationService.autoCurate.match', {
             ...logProps, pr: contribution.data.number, match: result.match
           })
+          return
         } else {
           this.logger.info('GitHubCurationService.autoCurate.mismatch', {
             ...logProps, mismatch: result.mismatch
