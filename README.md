@@ -281,3 +281,18 @@ Build and run the container.
 docker build -t ort .
 docker run --mount type=bind,source="<path to repo>",target=/app ort scanner -d /app/output/package-json-dependencies.yml -o /app/output-scanner
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Test
+
